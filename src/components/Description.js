@@ -7,9 +7,9 @@ const Description = () => {
     <>
       <article className={classes.description}>
         <div>
-          <h1>Hello, I'm Diego Quintela.</h1>
+          <h1>Hello, I'm Diego Quintela</h1>
         </div>
-        <div>
+        <div className={classes.description_subtitle}>
           <h3>
             Full-stack developer based in Toronto, currently exploring libraries
             such as ReactJS, Frameworks such as NextJS and NodeJS.

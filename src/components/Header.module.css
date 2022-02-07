@@ -9,6 +9,8 @@ header {
 
 header div h1 {
   color: white;
+  letter-spacing: -1.5rem;
+  font-size: 4rem;
 }
 
 header nav a {
@@ -18,8 +20,9 @@ header nav a {
 
 header nav a span {
   letter-spacing: 0.11rem;
-  font-size: 0.9rem;
-  color: #9b9b9b;
+  font-size: 1rem;
+  color: #bbbbbb;
+  font-weight: 900;
 }
 
 header nav a span:hover {
