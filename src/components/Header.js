@@ -7,7 +7,7 @@ class Header extends React.Component {
     return (
       <header className={classes.header}>
         <div>
-          <h1>dq</h1> {/* logo */}
+          <h1>DQ</h1> {/* logo */}
         </div>
         <nav>
           <a href="">

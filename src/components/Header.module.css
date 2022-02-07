@@ -23,6 +23,5 @@ header nav a span {
 }
 
 header nav a span:hover {
-  letter-spacing: 0.11rem;
   color: white;
 }
