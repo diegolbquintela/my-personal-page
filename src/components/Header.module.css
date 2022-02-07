@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5rem 2rem;
+  align-items: center;
+  color: black;
+}
+
+header div h1 {
+  color: white;
+}
+
+header nav a {
+  margin: 5rem;
+  text-decoration: none;
+}
+
+header nav a span {
+  letter-spacing: 0.11rem;
+  font-size: 0.9rem;
+  color: #9b9b9b;
+}
+
+header nav a span:hover {
+  letter-spacing: 0.11rem;
+  color: white;
+}
