@@ -1,0 +1,21 @@
+.skill__list {
+  padding: 0;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+}
+
+li h3 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.skill__list__item {
+  font-size: 1.5rem;
+  width: 100%;
+  padding-bottom: 0.5rem;
+}

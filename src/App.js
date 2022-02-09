@@ -12,7 +12,8 @@ function App() {
       <Header />
       <Description />
       <SkillList />
-      <ProjectList />
+      {/* TODO: */}
+      {/* <ProjectList /> */}
       <Footer />
     </Fragment>
   );

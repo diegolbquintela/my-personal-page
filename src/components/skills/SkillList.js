@@ -1,23 +1,44 @@
 import SkillListItem from './SkillListItem';
 
+import classes from './SkillList.module.css';
+
+// TODO: find a way of linking skills with respective projects
+
 const SkillList = () => {
-  const languages = ['JavaScript', 'Java', 'Python'];
-  const tools = [
-    'React',
-    'Node.js',
-    'Rest APIs',
-    'Spring Boot',
-    'Version Control',
+  const skills = [
+    {
+      type: 'languages',
+      skillList: ['JavaScript', 'Java', 'Python'],
+    },
+    {
+      type: 'tools',
+      skillList: [
+        'React',
+        'Node.js',
+        'Rest APIs',
+        'Spring Boot',
+        'Version Control',
+      ],
+    },
+    {
+      type: 'platforms',
+      skillList: ['Web', 'AWS', 'Docker', 'Unix/Linux'],
+    },
+    {
+      type: 'databases',
+      skillList: ['Postgres', 'MySQL', 'MongoDB'],
+    },
   ];
-  const platforms = ['Web', 'AWS', 'Docker', 'Unix/Linux'];
-  const databases = ['Postgres, MySQL, MongoDB'];
 
   return (
-    <ul>
-      <li>Languages: {languages.join(' ')}</li>
-      <li>Tools: {tools.join(' ')}</li>
-      <li>Platforms: {platforms.join(' ')}</li>
-      <li>Databases: {databases.join(' ')}</li>
+    <ul className={classes.skill__list}>
+      {skills.map((skill) => (
+        <SkillListItem
+          key={Math.random() * 100}
+          type={skill.type}
+          skillList={skill.skillList.join(' / ')}
+        />
+      ))}
     </ul>
   );
 };

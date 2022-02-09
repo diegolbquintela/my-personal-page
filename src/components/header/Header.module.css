@@ -5,6 +5,7 @@ header {
   margin: 0.5rem 2rem;
   align-items: center;
   color: black;
+  height: 10vh;
 }
 
 header div h1 {

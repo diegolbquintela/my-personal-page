@@ -5,7 +5,7 @@ import classes from './Header.module.css';
 class Header extends React.Component {
   render() {
     return (
-      <header className={classes.header}>
+      <header>
         <div>
           <h1>DQ</h1> {/* logo */}
         </div>
